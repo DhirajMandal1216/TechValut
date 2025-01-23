@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "436547291315",
+    "project_id": "techvalut-project",
+    "storage_bucket": "techvalut-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436547291315:android:fa7a6e294b2463d24a08c6",
+        "android_client_info": {
+          "package_name": "com.example.techvalutproject14_12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLZafXcCiqHSDpmYzOo7noKP6QnkFkNS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

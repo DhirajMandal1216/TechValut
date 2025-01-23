@@ -1,0 +1,24 @@
+<!-- fragment_documents.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- TabLayout to show tabs (Upload and Now) -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_T_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="@android:color/holo_blue_light"
+        app:tabSelectedTextColor="@android:color/holo_blue_light"
+        app:tabTextColor="@android:color/darker_gray"/>
+
+    <!-- Container to hold fragments (UploadFragment, NowFragment) -->
+    <FrameLayout
+        android:id="@+id/fragment_T_Container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

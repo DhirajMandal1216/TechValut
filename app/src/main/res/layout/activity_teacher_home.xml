@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher_Home">
+    <FrameLayout
+        android:id="@+id/t_frameLayout"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+
+        android:clipToPadding="false"
+        />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/t_bottomNavView"
+        android:layout_width="match_parent"
+        app:menu="@menu/stud_bottom_nav_menu"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:itemRippleColor="@color/gray"
+        android:elevation="0dp"
+        />
+</LinearLayout>
